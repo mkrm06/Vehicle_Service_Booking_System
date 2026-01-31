@@ -1,0 +1,54 @@
+.heroGrid{ 
+    padding: 34px 0; 
+    align-items: center; 
+}
+.heroBtns{ 
+    display:flex; 
+    gap:10px; 
+    margin-top: 18px; 
+    flex-wrap: wrap; 
+}
+.features{ 
+    display:grid; 
+    grid-template-columns: 1fr; 
+    gap:12px; 
+    margin-top: 18px; 
+}
+@media (min-width: 640px){
+     .features{ 
+        grid-template-columns: 1fr 1fr;
+     } 
+    }
+
+.featTitle{ 
+    font-weight: 900; 
+}
+.featText{ 
+    margin-top:6px; 
+    color: var(--muted); 
+    font-size: 13px; 
+}
+
+.heroCard{
+  border-radius: 26px;
+  background: linear-gradient(135deg, var(--brand), #1f2937);
+  color: #fff;
+  padding: 26px;
+  box-shadow: var(--shadow);
+}
+.heroCardTop{ 
+    color: rgba(255,255,255,.78); 
+    font-size: 12px; 
+    font-weight: 800; 
+}
+.heroCardTitle{ 
+    margin-top: 8px; 
+    font-size: 22px; 
+    font-weight: 900; 
+}
+.list{ 
+    margin-top: 14px; 
+    padding-left: 18px; 
+    line-height: 1.9; 
+    color: rgba(255,255,255,.92); 
+}
